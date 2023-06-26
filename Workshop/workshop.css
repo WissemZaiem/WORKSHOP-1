@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100;300&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    background: rgb(113,183,230);
+background: linear-gradient(180deg, rgba(113,183,230,1) 0%, rgba(155,89,182,1) 100%);
+background-repeat: no-repeat;
+height: 700px;
+}
+.formcontainer{
+border: 0px ;
+background-color:white;
+height: 550px;
+width: 700px;
+display: flex;
+margin-left: 350px;
+margin-top: 100px;
+border-radius: 12px;
+
+}
+.titlep{
+    font-size: 30px;
+    margin-left: 235px;
+    width: fit-content;
+    height: fit-content;
+}
+.titledesc{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+}
+.desc{
+    margin-left: 234px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    margin-top: -15px;
+    
+}
+.title{
+    width: max-content;
+    height: max-content;
+}
+.table
+{margin-left: -435px;
+    margin-top: 135px;
+    height: fit-content;
+    width: fit-content;
+}
+.nameinput{
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 250px;
+    height: 35px;
+}
+.mainform{
+   margin-top: 205px;
+   margin-left: -617px;
+}
+.forminputs{
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 610px;
+    height: 35px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    
+}
+
+.submitbutton{
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 620px;
+    height: 35px;
+   background: rgb(113,183,230);
+background: linear-gradient(90deg, rgba(113,183,230,1) 0%, rgba(153,93,184,1) 100%);
+border: 0px;
+color: white;
+font-weight: bold;
+}
+.button{
+    margin-top: -12px;
+    
+}
+.submitbutton:hover{
+border-radius: 5px;
+width: 620px;
+height: 35px;
+background: rgb(113,183,230);
+background: linear-gradient(90deg, rgb(77, 168, 228) 0%, rgb(146, 69, 185) 100%);
+border: none;
+color: white;
+font-weight: bold;
+cursor: pointer;
+}
+input:focus {
+    background-color: #d9edff;
+}
